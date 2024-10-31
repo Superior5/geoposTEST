@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://192.168.0.102:5000/get-locations')
+const socket = new WebSocket('ws://95.182.122.140:5000/get-locations')
 
 
 socket.onopen = () => {

@@ -1,7 +1,7 @@
 const statusDisplay = document.getElementById('status');
 
 
-const socket = new WebSocket('ws://192.168.0.102:5000/send-location')
+const socket = new WebSocket('ws://95.182.122.140:5000/send-location')
 
 socket.onopen = () => {
     console.log('Соединение с send-location установлено');
