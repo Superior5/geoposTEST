@@ -1,7 +1,7 @@
 const statusDisplay = document.getElementById('status');
 
 
-const socket = new WebSocket('ws://wayvpn.ru:5000/send-location')
+const socket = new WebSocket('wss://wayvpn.ru:5000/send-location')
 
 socket.onopen = () => {
     console.log('Соединение с send-location установлено');

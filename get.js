@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://wayvpn.ru:5000/get-locations')
+const socket = new WebSocket('wss://wayvpn.ru:5000/get-locations')
 
 
 socket.onopen = () => {
